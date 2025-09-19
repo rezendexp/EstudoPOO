@@ -1,6 +1,6 @@
 package poo.dominio.test;
 
-import poo.dominio.Carro;
+import metodos.Carro;
 
 public class CarroTest {
     public static void main(String[] args) {
@@ -17,5 +17,6 @@ public class CarroTest {
         carro2.ano = 2025;
 
         System.out.println("Carro 1: " + carro1.modelo + " - " + carro1.ano);
+        carro1.Acelerar("Aceleraaaaaa");
     }
 }
