@@ -1,6 +1,4 @@
-package metodos;
-
-import java.sql.SQLOutput;
+package javacore.metodos.dominio;
 
 public class Calculadora {
     public void somaDoisNumeros() {

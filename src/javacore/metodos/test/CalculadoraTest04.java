@@ -1,5 +1,5 @@
-package poo.dominio.test;
-import metodos.Calculadora;
+package javacore.metodos.test;
+import javacore.metodos.dominio.Calculadora;
 
 public class CalculadoraTest04 {
     public static void main(String[] args) {

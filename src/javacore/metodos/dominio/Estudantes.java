@@ -1,4 +1,4 @@
-package metodos;
+package javacore.metodos.dominio;
 
 public class Estudantes {
     public String nome;

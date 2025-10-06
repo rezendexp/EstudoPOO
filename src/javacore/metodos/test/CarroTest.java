@@ -1,6 +1,6 @@
-package poo.dominio.test;
+package javacore.metodos.test;
 
-import metodos.Carro;
+import javacore.metodos.dominio.Carro;
 
 public class CarroTest {
     public static void main(String[] args) {

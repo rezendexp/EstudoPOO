@@ -1,4 +1,4 @@
-package metodos;
+package javacore.metodos.dominio;
 
 public class Carro {
     public String nome;

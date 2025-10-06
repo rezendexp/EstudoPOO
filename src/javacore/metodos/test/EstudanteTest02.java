@@ -1,14 +1,11 @@
-package poo.dominio.test;
+package javacore.metodos.test;
 
-import metodos.Estudantes;
-import metodos.ImpressoraEstudantes;
+import javacore.metodos.dominio.Estudantes;
 
-public class EstudanteTest01 {
+public class EstudanteTest02 {
     public static void main(String[] args) {
         Estudantes estudante = new Estudantes();
         Estudantes estudante2 = new Estudantes();
-
-        ImpressoraEstudantes impressora = new ImpressoraEstudantes();
 
 
 
@@ -22,12 +19,7 @@ public class EstudanteTest01 {
         estudante2.sexo = 'F';
         estudante2.idade = 21;
 
-        impressora.imprime(estudante);
-        impressora.imprime(estudante2);
-
-        System.out.println("###########");
-
-        impressora.imprime(estudante);
-        impressora.imprime(estudante2);
+        estudante.imprime();
+        estudante2.imprime();
     }
 }
